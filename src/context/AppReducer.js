@@ -1,7 +1,7 @@
 //TODO: Get better definition for what a reducer,store do in Context API
 // and replace this todo with description
 
-export default (state, action) => {
+export const AppReducer = (state, action) => {
   //action tells reducer how to change state
   switch (action.type) {
     case "ADD_MOVIE_TO_WATCHLIST":

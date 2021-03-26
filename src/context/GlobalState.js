@@ -1,5 +1,5 @@
 import React, { createContext, useReducer, useEffect } from "react";
-import AppReducer from "./AppReducer";
+import { AppReducer } from "./AppReducer";
 
 const initialState = {
   watchlist: localStorage.getItem("watchlist") ? JSON.parse(localStorage.getItem("watchlist")) : [],
